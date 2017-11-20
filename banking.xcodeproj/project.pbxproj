@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		128295B81FBFFA2500CB3B44 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128295B71FBFFA2500CB3B44 /* LoginViewController.swift */; };
+		128295BA1FBFFA5700CB3B44 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128295B91FBFFA5700CB3B44 /* AccountViewController.swift */; };
+		128295BC1FBFFA9800CB3B44 /* TransactionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128295BB1FBFFA9800CB3B44 /* TransactionTableViewController.swift */; };
+		128295BE1FBFFAC200CB3B44 /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128295BD1FBFFAC200CB3B44 /* TransactionCell.swift */; };
+		128295C01FBFFAE900CB3B44 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128295BF1FBFFAE900CB3B44 /* Transaction.swift */; };
+		128C4BC71FBFEAFB009DEA83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128C4BC61FBFEAFB009DEA83 /* AppDelegate.swift */; };
+		128C4BCE1FBFEAFB009DEA83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 128C4BCD1FBFEAFB009DEA83 /* Assets.xcassets */; };
+		128C4BD11FBFEAFB009DEA83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128C4BCF1FBFEAFB009DEA83 /* LaunchScreen.storyboard */; };
+		59747EE0404C86A981EC2664 /* Pods_banking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A9AF774EABEBC7315D5E578 /* Pods_banking.framework */; };
+		D95E46C11FC0405A0054B55C /* AppTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95E46C01FC0405A0054B55C /* AppTabViewController.swift */; };
+		D95E46C21FC04BF60054B55C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128295B41FBFF6A200CB3B44 /* Main.storyboard */; };
+		D95E46C31FC04C210054B55C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 128295B61FBFF88200CB3B44 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		114DB51092C5CA845D48F682 /* Pods-banking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-banking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-banking/Pods-banking.debug.xcconfig"; sourceTree = "<group>"; };
+		128295B51FBFF6A200CB3B44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		128295B61FBFF88200CB3B44 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		128295B71FBFFA2500CB3B44 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		128295B91FBFFA5700CB3B44 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		128295BB1FBFFA9800CB3B44 /* TransactionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewController.swift; sourceTree = "<group>"; };
+		128295BD1FBFFAC200CB3B44 /* TransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
+		128295BF1FBFFAE900CB3B44 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		128C4BC31FBFEAFB009DEA83 /* banking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = banking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		128C4BC61FBFEAFB009DEA83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		128C4BCD1FBFEAFB009DEA83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		128C4BD01FBFEAFB009DEA83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		128C4BD21FBFEAFB009DEA83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A9AF774EABEBC7315D5E578 /* Pods_banking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_banking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8237BB3E2744CA2F0BC17A58 /* Pods-banking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-banking.release.xcconfig"; path = "Pods/Target Support Files/Pods-banking/Pods-banking.release.xcconfig"; sourceTree = "<group>"; };
+		D95E46C01FC0405A0054B55C /* AppTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		128C4BC01FBFEAFB009DEA83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59747EE0404C86A981EC2664 /* Pods_banking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		128C4BBA1FBFEAFB009DEA83 = {
+			isa = PBXGroup;
+			children = (
+				128295B61FBFF88200CB3B44 /* GoogleService-Info.plist */,
+				128C4BC51FBFEAFB009DEA83 /* banking */,
+				128C4BC41FBFEAFB009DEA83 /* Products */,
+				E624E46C2D3B129F74ED0755 /* Pods */,
+				3B3503EF8A1D4F3A34FEDDDB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		128C4BC41FBFEAFB009DEA83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				128C4BC31FBFEAFB009DEA83 /* banking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		128C4BC51FBFEAFB009DEA83 /* banking */ = {
+			isa = PBXGroup;
+			children = (
+				128295B41FBFF6A200CB3B44 /* Main.storyboard */,
+				128C4BC61FBFEAFB009DEA83 /* AppDelegate.swift */,
+				128295B71FBFFA2500CB3B44 /* LoginViewController.swift */,
+				128295B91FBFFA5700CB3B44 /* AccountViewController.swift */,
+				128295BB1FBFFA9800CB3B44 /* TransactionTableViewController.swift */,
+				128295BD1FBFFAC200CB3B44 /* TransactionCell.swift */,
+				128295BF1FBFFAE900CB3B44 /* Transaction.swift */,
+				128C4BCD1FBFEAFB009DEA83 /* Assets.xcassets */,
+				128C4BCF1FBFEAFB009DEA83 /* LaunchScreen.storyboard */,
+				128C4BD21FBFEAFB009DEA83 /* Info.plist */,
+				D95E46C01FC0405A0054B55C /* AppTabViewController.swift */,
+			);
+			path = banking;
+			sourceTree = "<group>";
+		};
+		3B3503EF8A1D4F3A34FEDDDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A9AF774EABEBC7315D5E578 /* Pods_banking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E624E46C2D3B129F74ED0755 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				114DB51092C5CA845D48F682 /* Pods-banking.debug.xcconfig */,
+				8237BB3E2744CA2F0BC17A58 /* Pods-banking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		128C4BC21FBFEAFB009DEA83 /* banking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 128C4BD51FBFEAFB009DEA83 /* Build configuration list for PBXNativeTarget "banking" */;
+			buildPhases = (
+				519A54198AD9E2F4A8359655 /* [CP] Check Pods Manifest.lock */,
+				128C4BBF1FBFEAFB009DEA83 /* Sources */,
+				128C4BC01FBFEAFB009DEA83 /* Frameworks */,
+				128C4BC11FBFEAFB009DEA83 /* Resources */,
+				23DBB39077F64EC6A8B0E80E /* [CP] Embed Pods Frameworks */,
+				B20F03901DA5F6CAC553EDD6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = banking;
+			productName = banking;
+			productReference = 128C4BC31FBFEAFB009DEA83 /* banking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		128C4BBB1FBFEAFB009DEA83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Hong Gao";
+				TargetAttributes = {
+					128C4BC21FBFEAFB009DEA83 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 128C4BBE1FBFEAFB009DEA83 /* Build configuration list for PBXProject "banking" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 128C4BBA1FBFEAFB009DEA83;
+			productRefGroup = 128C4BC41FBFEAFB009DEA83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				128C4BC21FBFEAFB009DEA83 /* banking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		128C4BC11FBFEAFB009DEA83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95E46C21FC04BF60054B55C /* Main.storyboard in Resources */,
+				D95E46C31FC04C210054B55C /* GoogleService-Info.plist in Resources */,
+				128C4BD11FBFEAFB009DEA83 /* LaunchScreen.storyboard in Resources */,
+				128C4BCE1FBFEAFB009DEA83 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23DBB39077F64EC6A8B0E80E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-banking/Pods-banking-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-banking/Pods-banking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		519A54198AD9E2F4A8359655 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-banking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B20F03901DA5F6CAC553EDD6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-banking/Pods-banking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		128C4BBF1FBFEAFB009DEA83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128295C01FBFFAE900CB3B44 /* Transaction.swift in Sources */,
+				128295B81FBFFA2500CB3B44 /* LoginViewController.swift in Sources */,
+				D95E46C11FC0405A0054B55C /* AppTabViewController.swift in Sources */,
+				128295BE1FBFFAC200CB3B44 /* TransactionCell.swift in Sources */,
+				128295BA1FBFFA5700CB3B44 /* AccountViewController.swift in Sources */,
+				128C4BC71FBFEAFB009DEA83 /* AppDelegate.swift in Sources */,
+				128295BC1FBFFA9800CB3B44 /* TransactionTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		128295B41FBFF6A200CB3B44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				128295B51FBFF6A200CB3B44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		128C4BCF1FBFEAFB009DEA83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				128C4BD01FBFEAFB009DEA83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		128C4BD31FBFEAFB009DEA83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		128C4BD41FBFEAFB009DEA83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		128C4BD61FBFEAFB009DEA83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 114DB51092C5CA845D48F682 /* Pods-banking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73Q3645B7X;
+				INFOPLIST_FILE = banking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.banking.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		128C4BD71FBFEAFB009DEA83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8237BB3E2744CA2F0BC17A58 /* Pods-banking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73Q3645B7X;
+				INFOPLIST_FILE = banking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.banking.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		128C4BBE1FBFEAFB009DEA83 /* Build configuration list for PBXProject "banking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128C4BD31FBFEAFB009DEA83 /* Debug */,
+				128C4BD41FBFEAFB009DEA83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		128C4BD51FBFEAFB009DEA83 /* Build configuration list for PBXNativeTarget "banking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128C4BD61FBFEAFB009DEA83 /* Debug */,
+				128C4BD71FBFEAFB009DEA83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 128C4BBB1FBFEAFB009DEA83 /* Project object */;
+}
